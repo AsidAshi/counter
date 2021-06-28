@@ -7,7 +7,7 @@ import React, { useEffect, useState } from "react";
 
 const App = () => {
 
-  const [time, setTime] = useState(null);
+  const [time, setTime] = useState();
   const [run, setrun] = useState(false)
   
 
@@ -35,7 +35,7 @@ const App = () => {
         <button className='buttonStyleA' onClick={() => { setrun(true) }}>START</button>
         count:{time}
         <button className='buttonStyle' onClick={()=>{setrun(false)}}>STOP</button>
-        <button className='buttonStyleB' onClick= { ()=>{setTime(null)}}>RESET</button>
+        <button className='buttonStyleB' onClick= { ()=>{setTime("")}}>RESET</button>
 
       </header>
       
