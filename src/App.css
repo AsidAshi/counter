@@ -1,5 +1,7 @@
 .App {
-  text-align: center;
+  align-items: center;
+  align-content: center;
+  
 }
 
 .App-logo {
@@ -19,11 +21,29 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
+
   font-size: calc(10px + 2vmin);
   color: white;
 }
+.textStyle{
+  padding-top: 20px;
+  color: #ffffff
+}
+.inputStyle{
+  height: 20px;
+  width: 80px;
+  padding-top: 20px;
+  text-size-adjust: 20px;
+  align-items: center;
+  
+}
+.buttonStyle{
+  background-color: crimson;
+}
 
+.buttonStyleA{
+  background-color: rgb(20, 220, 37);
+}
 .App-link {
   color: #61dafb;
 }
